@@ -8,6 +8,7 @@ module System.PosixCompat (
     module System.PosixCompat.Time,
     module System.PosixCompat.Types,
     module System.PosixCompat.User,
+    module System.PosixCompat.Unistd,
     usingPortableImpl
   ) where
 
@@ -15,6 +16,7 @@ import System.PosixCompat.Files
 import System.PosixCompat.Time
 import System.PosixCompat.Types
 import System.PosixCompat.User
+import System.PosixCompat.Unistd
 
 -- | 'True' if unix-compat is using its portable implementation,
 --   or 'False' if the unix package is simply being re-exported.
